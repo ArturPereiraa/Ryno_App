@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/Termos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/concert_one"
+        android:text="@string/termos"
+        android:textColor="#8900DD"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+
+    <Button
+        android:id="@+id/Btn_CriarAluno"
+        android:layout_width="130dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/concert_one"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Criar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/concert_one"
+        android:hint="Nome"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#8900DD"
+        android:textColorHint="#8900DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/concert_one"
+        android:hint="Senha"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#8900DD"
+        android:textColorHint="#8900DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/concert_one"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#8900DD"
+        android:textColorHint="#8900DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/concert_one"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColor="#8900DD"
+        android:textColorHint="#8900DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_ryno" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:buttonTint="#673AB7"
+        android:fontFamily="@font/concert_one"
+        android:text="Li e concordo com os "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
