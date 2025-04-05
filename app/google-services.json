@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847596118332",
+    "project_id": "ryno-61c2e",
+    "storage_bucket": "ryno-61c2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847596118332:android:14527c0f6a6ea60019be39",
+        "android_client_info": {
+          "package_name": "com.example.ryno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEaF4fWBQfvSKqWWrVzw90U_-7qJgHoVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

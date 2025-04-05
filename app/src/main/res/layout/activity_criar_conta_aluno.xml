@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+        app:layout_constraintTop_toBottomOf="@+id/SenhaAluno" />
 
     <Button
         android:id="@+id/Btn_CriarAluno"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/NomeAluno"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="80dp"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/SenhaAluno"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="15dp"
@@ -67,10 +67,10 @@
         android:textColorHint="#8900DD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
+        app:layout_constraintTop_toBottomOf="@+id/TelefoneAluno" />
 
     <EditText
-        android:id="@+id/editTextText7"
+        android:id="@+id/EmailAluno"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="15dp"
@@ -83,10 +83,10 @@
         android:textColorHint="#8900DD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
+        app:layout_constraintTop_toBottomOf="@+id/NomeAluno" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/TelefoneAluno"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="15dp"
@@ -99,7 +99,7 @@
         android:textColorHint="#8900DD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+        app:layout_constraintTop_toBottomOf="@+id/EmailAluno" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -123,6 +123,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+        app:layout_constraintTop_toBottomOf="@+id/SenhaAluno" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

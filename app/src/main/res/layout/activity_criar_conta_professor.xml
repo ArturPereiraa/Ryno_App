@@ -9,7 +9,7 @@
     tools:layout_editor_absoluteY="578dp">
 
     <Button
-        android:id="@+id/btnLogin4"
+        android:id="@+id/Btn_CriarProfessor"
         android:layout_width="130dp"
         android:layout_height="41dp"
         android:layout_marginTop="60dp"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/checkBox4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText15" />
+        app:layout_constraintTop_toBottomOf="@+id/CREF" />
 
     <CheckBox
         android:id="@+id/checkBox4"
@@ -50,10 +50,10 @@
         android:text="Li e concordo com os "
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText15" />
+        app:layout_constraintTop_toBottomOf="@+id/CREF" />
 
     <EditText
-        android:id="@+id/editTextText15"
+        android:id="@+id/CREF"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="15dp"
@@ -67,10 +67,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText14" />
+        app:layout_constraintTop_toBottomOf="@+id/SenhaProfessor" />
 
     <EditText
-        android:id="@+id/editTextText14"
+        android:id="@+id/SenhaProfessor"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="15dp"
@@ -83,10 +83,10 @@
         android:textColorHint="#8900DD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText13" />
+        app:layout_constraintTop_toBottomOf="@+id/TelefoneProfessor" />
 
     <EditText
-        android:id="@+id/editTextText13"
+        android:id="@+id/TelefoneProfessor"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="15dp"
@@ -99,13 +99,13 @@
         android:textColorHint="#8900DD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText12" />
+        app:layout_constraintTop_toBottomOf="@+id/EmailProfessor" />
 
     <EditText
-        android:id="@+id/editTextText12"
+        android:id="@+id/EmailProfessor"
         android:layout_width="280dp"
         android:layout_height="45dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/edittext_background"
         android:fontFamily="@font/concert_one"
         android:hint="Email"
@@ -114,11 +114,12 @@
         android:textColor="#8900DD"
         android:textColorHint="#8900DD"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText11" />
+        app:layout_constraintTop_toBottomOf="@+id/NomeProfessor" />
 
     <EditText
-        android:id="@+id/editTextText11"
+        android:id="@+id/NomeProfessor"
         android:layout_width="280dp"
         android:layout_height="45dp"
         android:layout_marginTop="80dp"

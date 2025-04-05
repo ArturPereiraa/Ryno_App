@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F4F4"
+        android:backgroundTint="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-70dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/concert_one"
+            android:text="Especialidade"
+            android:textColor="#8900DD"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnLutas"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/button_background"
+            android:drawableStart="@drawable/luta"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/concert_one"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:text="Lutas"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/btnMusculacao"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:drawableStart="@drawable/musculacao"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/concert_one"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:text="Musculação"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnNatacao" />
+
+        <Button
+            android:id="@+id/btnNatacao"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:drawableStart="@drawable/natacao"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/concert_one"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:text="Natação"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnYoga" />
+
+        <Button
+            android:id="@+id/btnYoga"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:drawableStart="@drawable/yoga"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/concert_one"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:text="Yoga"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnLutas" />
+
+
+        <Button
+            android:id="@+id/btnProsseguir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_background"
+            android:text="Prosseguir"
+            android:textColor="#040404"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnMusculacao" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

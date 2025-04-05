@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
         val tvCriarConta = findViewById<TextView>(R.id.Tv_criar_conta)
         tvCriarConta.setOnClickListener{
             val intent = Intent(this,CadastreSeActivity::class.java)

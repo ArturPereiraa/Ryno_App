@@ -13,7 +13,7 @@ class CadastreSeActivity : AppCompatActivity() {
 
         val btnProfessor = findViewById<Button>(R.id.Btn_Professor)  // Encontra o botão pelo ID
         btnProfessor.setOnClickListener {
-            val intent = Intent(this, CadastroAlunoActivity::class.java)  // Abre a nova tela
+            val intent = Intent(this, CadastroProfessorActivity::class.java)  // Abre a nova tela
             startActivity(intent)}
 
         val btnAluno = findViewById<Button>(R.id.Btn_aluno)  // Encontra o botão pelo ID
