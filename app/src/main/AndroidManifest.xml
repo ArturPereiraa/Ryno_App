@@ -32,6 +32,8 @@
         <activity android:name=".InteressesActivity" android:exported="true"/>
         <activity android:name=".ProximaActivity" android:exported="true"/>
         <activity android:name=".EspecialidadesActivity" android:exported="true"/>
+        <activity android:name=".LocalidadeActivity" android:exported="true"/>
+        <activity android:name=".PerfilProfissionalActivity" android:exported="true"/>
 
         <meta-data
             android:name="preloaded_fonts"

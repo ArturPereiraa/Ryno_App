@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#F3EFFF" /> <!-- Fundo claro puxado para roxo -->
+
+    <corners android:radius="16dp" />
+
+    <stroke
+        android:width="2dp"
+        android:color="#9B30FF" /> <!-- Roxo mais vibrante -->
+</shape>
+
